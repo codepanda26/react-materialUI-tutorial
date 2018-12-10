@@ -1,7 +1,20 @@
 import React from "react";
+import {
+  AppBar,
+  Toolbar,
+  IconButton,
+  MenuIcon,
+  Typography,
+  Button
+} from "material-ui";
+
 //functional component
 export default props => (
-  <div>
-    <h1>Panda Header </h1>
-  </div>
+  <AppBar position="static">
+    <Toolbar>
+      <Typography variant="headline" color="inherit">
+        Exercise DataBase
+      </Typography>
+    </Toolbar>
+  </AppBar>
 );
