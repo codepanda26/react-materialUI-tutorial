@@ -28,6 +28,8 @@ export default class extends Component {
         {/*fragment lets you make a container like a div would to group your code inside but with out puting in the dom */}
         <Header />
         <Exercises exercises={exercises} />
+        {/*this goes to index.js in the exercises folder see import
+        it passes the array of exsercises as the props to the compontent */}
         <Footer muscles={muscles} />
       </Fragment>
     );
