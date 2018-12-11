@@ -1,8 +1,6 @@
 //this file will have all of our buisness logic for our Exercise app
 import React from "react";
-import { Grid } from "material-ui";
-import LeftPane from "./LeftPane";
-import RightPane from "./RightPane";
+import { Grid, Paper } from "material-ui";
 
 const styles = {
   Paper: {
@@ -14,11 +12,11 @@ const styles = {
 export default props => (
   <Grid container>
     <Grid item xs>
-      <LeftPane styles={styles} />
+      <Paper style={styles.Paper}>left pane</Paper>
     </Grid>
 
     <Grid item xs>
-      <RightPane styles={styles} />
+      <Paper style={styles.Paper}>left pane</Paper>
     </Grid>
   </Grid>
 );
